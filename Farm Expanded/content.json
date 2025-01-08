@@ -1,0 +1,32 @@
+{
+    "Format": "2.4.0",
+    "Changes": [
+        // add farm type
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalFarms",
+            "Entries": {
+                "n3rdgirl.FarmExpanded/FarmExpanded": { // for technical reasons, you need to specify the ID here *and* in the "ID" field
+                    "ID": "n3rdgirl.FarmExpanded/FarmExpanded",
+                    "TooltipStringPath": "Strings/UI:n3rdgirl_FarmExpanded",
+                    "MapName": "n3rdgirl_FarmExpanded",
+                    "WorldMapTexture": "LooseSprites/Farm_ranching_map"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/UI",
+            "Entries": {
+                "n3rdgirl_FarmExpanded": "{{i18n: FarmExpandedUI}}"
+            }
+        },
+
+        // load map
+        {
+            "Action": "Load",
+            "Target": "Maps/n3rdgirl_FarmExpanded",
+            "FromFile": "assets/FarmExpanded.tmx"
+        }
+    ]
+}
