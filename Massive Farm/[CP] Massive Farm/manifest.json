@@ -1,0 +1,13 @@
+{
+  "Name": "Massive Farm",
+  "Author": "N3rdGirl",
+  "Version": "4.3.1",
+  "Description": "A much larger farm that includes areas for foraging, mining, and more farm space for whatever you want",
+  "UniqueID": "n3rdgirl.MassiveFarm",
+  "UpdateKeys": [ "Nexus:11174" ],
+  "MinimumApiVersion": "4.1.9",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.4.4"
+  }
+}
