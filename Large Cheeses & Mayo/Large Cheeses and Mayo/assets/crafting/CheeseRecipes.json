@@ -1,0 +1,82 @@
+{
+	"Changes": [
+		//Cheese recipes
+		{
+			"LogName": "For 2 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Cheese Amount": "2"
+			},
+			"Entries": {
+				"Cheese": "{{ModID}}.LargeCheese 1/Home/424 {{Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 3 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Cheese Amount": "3"
+			},
+			"Entries": {
+				"Cheese": "{{ModID}}.LargeCheese 1/Home/424 {{Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 4 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Cheese Amount": "4"
+			},
+			"Entries": {
+				"Cheese": "{{ModID}}.LargeCheese 1/Home/424 {{Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 5 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Cheese Amount": "5"
+			},
+			"Entries": {
+				"Cheese": "{{ModID}}.LargeCheese 1/Home/424 {{Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 6 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Cheese Amount": "6"
+			},
+			"Entries": {
+				"Cheese": "{{ModID}}.LargeCheese 1/Home/424 {{Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 7 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Cheese Amount": "7"
+			},
+			"Entries": {
+				"Cheese": "{{ModID}}.LargeCheese 1/Home/424 {{Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 8 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Cheese Amount": "8"
+			},
+			"Entries": {
+				"Cheese": "{{ModID}}.LargeCheese 1/Home/424 {{Cheese Amount}}/false/Farming 3"
+			}
+		},
+	]
+}

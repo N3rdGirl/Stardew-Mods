@@ -1,0 +1,63 @@
+{
+	"Changes": [
+		{
+
+			"LogName": "Load All The Textures",
+			"Action": "Load",
+			"Target": "{{ModID}}/Objects",
+			"FromFile": "assets/items/objects.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModID}}.LargeCheese": {
+					"Name": "{{ModID}}.LargeCheese",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:{{ModID}}.LargeCheese.DisplayName}}",
+					"Description": "{{i18n:{{ModID}}.LargeCheese.Description}}",
+					"Texture": "{{ModID}}/Objects",
+					"Price": 500,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_yellow",
+						"cheese_item"
+					]
+				},
+				"{{ModID}}.LargeGoatCheese": {
+					"Name": "{{ModID}}.LargeGoatCheese",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 1,
+					"DisplayName": "{{i18n:{{ModID}}.LargeGoatCheese.DisplayName}}",
+					"Description": "{{i18n:{{ModID}}.LargeGoatCheese.Description}}",
+					"Texture": "{{ModID}}/Objects",
+					"Price": 1100,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_yellow",
+						"cheese_item",
+						"soft_cheese_item"
+					]
+				},
+				"{{ModID}}.LargeMayo": {
+					"Name": "{{ModID}}.LargeMayo",
+					"Type": "Basic",
+					"Category": -26,
+					"SpriteIndex": 2,
+					"DisplayName": "{{i18n:{{ModID}}.LargeMayo.DisplayName}}",
+					"Description": "{{i18n:{{ModID}}.LargeMayo.Description}}",
+					"Texture": "{{ModID}}/Objects",
+					"Price": 300,
+					"Edibility": -300,
+					"ContextTags": [
+						"color_white",
+						"mayo_item"
+					]
+				}
+			}
+		}
+	]
+}

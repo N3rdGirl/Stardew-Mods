@@ -1,0 +1,65 @@
+{
+	"Format": "2.4.0",
+	"ConfigSchema": {
+		//crafted cheese amount
+		"Cheese Amount": {
+			"AllowValues": "2, 3, 4, 5, 6, 7, 8",
+			"Default": "2",
+			"Description": "The amount of normal cheese you get when crafting from a Large Cheese",
+			"Section": "Splitting"
+		},
+		//crafted goat cheese amount
+		"Goat Cheese Amount": {
+			"AllowValues": "2, 3, 4, 5",
+			"Default": "2",
+			"Description": "The amount of normal goat cheese you get when crafting from a Large Goat Cheese",
+			"Section": "Splitting"
+		},
+		//allow mayo splitting?
+		"Mayonnaise Splitting": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Choose to enable crafting one large mayonnaise into 2 \"normal\" mayonnaises",
+			"Section": "Splitting"
+		},
+		//Balance Health and Energy
+		"Balance Regen": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Change the amount both cheeses heal health and energy based on the splitting ammount",
+			"Section": "Balances"
+		}
+	},
+	"Changes": [
+		
+		{
+			"LogName": "Declare new objects",
+			"Action": "Include",
+			"FromFile": "assets/items/objects.json"
+		},
+		{
+			"LogName": "Balance all the prices",
+			"Action": "Include",
+			"FromFile": "assets/balance/ItemPriceChanges.json"
+		},
+		{
+			"LogName": "Regen Balances",
+			"Action": "Include",
+			"FromFile": "assets/balance/CheeseEdibility.json, assets/Balance/GoatCheeseEdibility.json",
+			"When":{
+				"Balance Regen": "true"
+			}
+		},
+		//add crafting recipes
+		{
+			"LogName": "Adding Cheese Recipes",
+			"Action": "Include",
+			"FromFile": "assets/crafting/CheeseRecipes.json, assets/crafting/GCheeseRecipes.json"
+		},
+		{
+			"LogName": "Mayonnaise Recipe",
+			"Action": "Include",
+			"FromFile": "assets/crafting/MayoRecipe.json"
+		}
+	]
+}

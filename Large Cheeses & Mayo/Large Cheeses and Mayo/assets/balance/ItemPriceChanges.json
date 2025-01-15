@@ -1,0 +1,38 @@
+{
+	"Changes": [
+		//change prices of vanilla items
+		{
+			"LogName": "Price changes for Normal Cheese",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"424": {
+					"Price": "{{Round: {{Query: 500/{{Cheese Amount}} }}, 0, down }}"
+				}
+			}
+		},
+		{
+			"LogName": "Price changes for Goat Cheese",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"426": {
+					"Price": "{{Round: {{Query: 1100/{{Goat Cheese Amount}} }}, 0, down }}"
+				}
+			}
+		},
+		{
+			"LogName": "Mayo changes",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"306": {
+					"Price": 150
+				}
+			},
+			"When": {
+				"Mayonnaise Splitting": "true"
+			}
+		}
+	]
+}

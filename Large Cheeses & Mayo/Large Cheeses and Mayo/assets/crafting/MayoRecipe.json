@@ -1,0 +1,16 @@
+{
+	"Changes": [
+		//Mayo Recipe
+		{
+			"LogName": "Splitting Mayo",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Mayonnaise Splitting": "true"
+			},
+			"Entries": {
+				"Mayonnaise": "{{ModID}}.LargeMayo 1/Home/306 2/false/Farming 3"
+			}
+		}
+	]
+}

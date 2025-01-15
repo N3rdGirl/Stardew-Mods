@@ -1,0 +1,31 @@
+{
+	"Changes": [
+		//changing the edibility of items based on config choice
+		{
+			"LogName": "Edibility for 3",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"426": {
+					"Edibility": 45
+				}
+			},
+			"When": {
+				"Goat Cheese Amount": "3"
+			}
+		},
+		{
+			"LogName": "Edibility for 4 & 5",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"426": {
+					"Edibility": 40
+				}
+			},
+			"When": {
+				"Goat Cheese Amount": "4, 5"
+			}
+		}
+	]
+}

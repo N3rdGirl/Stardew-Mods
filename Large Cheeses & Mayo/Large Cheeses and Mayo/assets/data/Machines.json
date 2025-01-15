@@ -1,0 +1,50 @@
+{
+	"Changes": [
+		//editing machines for items
+		{
+			"LogName": "Large Cheese",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeMilk",
+				"OutputItem",
+				"(O)424"
+			],
+			"Entries": {
+				"ItemId": "(O){{ModID}}.LargeCheese"
+			}
+		},
+		{
+			"LogName": "Large Goat Cheese",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeGoatMilk",
+				"OutputItem",
+				"(O)426"
+			],
+			"Entries": {
+				"ItemId": "(O){{ModID}}.LargeGoatCheese"
+			}
+		},
+		{
+			"LogName": "Large Mayo",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_LargeEgg",
+				"OutputItem",
+				"(O)306"
+			],
+			"Entries": {
+				"ItemId": "(O){{ModID}}.LargeMayo"
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"Changes": [
+		//Goat Cheese Recipes
+		{
+			"LogName": "For 2 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Goat Cheese Amount": "2"
+			},
+			"Entries": {
+				"Goat Cheese": "{{ModID}}.LargeGoatCheese 1/Home/426 {{Goat Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 3 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Goat Cheese Amount": "3"
+			},
+			"Entries": {
+				"Goat Cheese": "{{ModID}}.LargeGoatCheese 1/Home/426 {{Goat Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 4 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Goat Cheese Amount": "4"
+			},
+			"Entries": {
+				"Goat Cheese": "{{ModID}}.LargeGoatCheese 1/Home/426 {{Goat Cheese Amount}}/false/Farming 3"
+			}
+		},
+		{
+			"LogName": "For 5 Cheeses",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Goat Cheese Amount": "5"
+			},
+			"Entries": {
+				"Goat Cheese": "{{ModID}}.LargeGoatCheese 1/Home/426 {{Goat Cheese Amount}}/false/Farming 3"
+			}
+		},
+	]
+}
