@@ -10,4 +10,5 @@ Please provide a SMAPI log in any and all bug reports you make.
 I did take some help from this mod for the shape of the dig spots and how to use content patcher to patch them in, but the coloring and shading is my own.
 If you would like to add translations for this mod, please reach out to me via Nexus, Curseforge or Discord.
 
+If you would like to add translations for this mod, Please follow the instructions in the [main README](https://github.com/N3rdGirl/Stardew-Mods/blob/main/README.md).
 Artwork is mainly done by me with inspiration from a few other mods and heavy use of looking at pictures from my animal crossing game. Feel free to edit if you would like.
