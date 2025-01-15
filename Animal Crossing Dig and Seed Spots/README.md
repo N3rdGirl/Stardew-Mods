@@ -5,9 +5,9 @@ Drag into your mods folder, make sure you have content patcher to actually make 
 ## ![Compatibility](https://i.imgur.com/b6c2IjM.png)
 This mod will not work with mods that change the seed and dig spots. Additionally, some recolor mods might make the spots look weird.
 ## ![Reportting issues](https://i.imgur.com/prY2LJu.png)
-Please provide a SMAPI log in any and all bug reports you make.
+Please provide a [SMAPI log](https://smapi.io/log) in any and all bug reports you make.
 ## ![Extra Info/Credits](https://i.imgur.com/3IoxJ6a.png)﻿﻿
-I did take some help from this mod for the shape of the dig spots and how to use content patcher to patch them in, but the coloring and shading is my own.
+I did take some help from [this](https://www.nexusmods.com/stardewvalley/mods/2129) mod for the shape of the dig spots and how to use content patcher to patch them in, but the coloring and shading is my own.
 If you would like to add translations for this mod, please reach out to me via Nexus, Curseforge or Discord.
 
 If you would like to add translations for this mod, Please follow the instructions in the [main README](https://github.com/N3rdGirl/Stardew-Mods/blob/main/README.md).
