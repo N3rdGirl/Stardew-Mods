@@ -8,7 +8,7 @@ Before putting this mod in your mods folder, make sure you have the most up-to-d
 This mod is compatible with most mods, it will not be compatible with any other custom farm maps as you can only have one farm. 
 
 # ![Reporting Issues](https://i.imgur.com/prY2LJu.png)
-In order for me to understand what issues are being caused I will need to have a copy of your SMAPI log. If the problem is a placement issue(IE something that looks like it would be walkable not being walkable) a screenshot of the in-game area. I would also recommend testing with only this mod in case a different mod is causing issues. If it is a mod conflict I will try to fix if I can but do note that I am not 100% versed in how mods communicate with each other.
+In order for me to understand what issues are being caused I will need to have a copy of your [SMAPI log](https://smapi.io/log). If the problem is a placement issue(IE something that looks like it would be walkable not being walkable) a screenshot of the in-game area. I would also recommend testing with only this mod in case a different mod is causing issues. If it is a mod conflict I will try to fix if I can but do note that I am not 100% versed in how mods communicate with each other.
 NOTE: WITHOUT A LOG/OTHER EVIDENCE I WILL MARK THE REPORT AS "NOT A BUG"
 
 # ![Extra Info/Credits](https://i.imgur.com/3IoxJ6a.png)﻿
