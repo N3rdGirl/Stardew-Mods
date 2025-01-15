@@ -1,0 +1,13 @@
+{
+  "Name": "Timelord Greenhouse",
+  "Author": "N3rdGirl",
+  "Version": "1.1.5",
+  "Description": "It's bigger on the inside,",
+  "UniqueID": "n3rdgirl.TimelordGreenhouse",
+  "UpdateKeys": [ "Nexus:11074" ],
+  "MinimumApiVersion": "4.1.9",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.4.4"
+  }
+}
