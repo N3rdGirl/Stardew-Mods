@@ -13,10 +13,10 @@
 	"config.section.Balances.name": "Balances",
 	"config.section.Balances.description": "",
 	//items
-	"{{ModID}}.LargeCheese.DisplayName": "Large Cheese",
-	"{{ModID}}.LargeCheese.Description": "A rather large wheel of Cheese. You'll need to split it before you can eat it.",
-	"{{ModID}}.LargeGoatCheese.DisplayName": "Large Goat Cheese",
-	"{{ModID}}.LargeGoatCheese.Description": "A rather large wheel of Goat Cheese. You'll need to split it up before you can eat it.",
-	"{{ModID}}.LargeMayo.DisplayName": "Large Mayonnaise",
-	"{{ModID}}.LargeMayo.Description": "An almost absurd amount of mayonnaise, I wouldn't drink it...",
+	"LargeCheese.DisplayName": "Large Cheese",
+	"LargeCheese.Description": "A rather large wheel of Cheese. You'll need to split it before you can eat it.",
+	"LargeGoatCheese.DisplayName": "Large Goat Cheese",
+	"LargeGoatCheese.Description": "A rather large wheel of Goat Cheese. You'll need to split it up before you can eat it.",
+	"LargeMayo.DisplayName": "Large Mayonnaise",
+	"LargeMayo.Description": "An almost absurd amount of mayonnaise, I wouldn't drink it...",
 }
