@@ -9,7 +9,7 @@
                 "n3rdgirl.MassiveFarm/MassiveFarm": { // for technical reasons, you need to specify the ID here *and* in the "ID" field
                     "ID": "n3rdgirl.MassiveFarm/MassiveFarm",
                     "TooltipStringPath": "Strings/UI:n3rdgirl_MassiveFarm",
-                    "MapName": "n3rdgirl_MassiveFarm",
+                    "MapName": "MassiveFarm",
                     "WorldMapTexture": "LooseSprites/Farm_ranching_map"
                 }
             }
