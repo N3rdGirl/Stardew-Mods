@@ -1,13 +1,13 @@
 {
 	"Name": "Large Cheesees and Mayo",
 	"Author": "N3rdGirl",
-	"Version": "1.0.3",
+	"Version": "1.1.0",
 	"Description": "My take on the Dairy and Egg Product Overhaul by Vanlla1",
 	"UniqueID": "n3rdgirl.LrgCheeseMayo",
 	"UpdateKeys": ["Nexus:30745"],
 	"MinimumApiVersion": "4.1.10",
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
-		"MinimumVersion": "2.4.4"
+		"MinimumVersion": "2.5.1"
 	}
 }
