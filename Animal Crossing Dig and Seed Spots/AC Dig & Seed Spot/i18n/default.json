@@ -6,6 +6,7 @@
 	"config.Artifact Spot Typing.description": "A normal brown spot or a glowy spot",
 	"config.Artifact Spot Typing.values.Normal": "Normal",
 	"config.Artifact Spot Typing.values.Glowy": "Glowy",
+	"config.Artifact Spot Typing.values.Animated": "Animated",
 
 	"config.Animal Crossing Seed Spots.name": "Animal Crossing Seed Spots",
 	"config.Animal Crossing Seed Spots.description": "Changes the grass seed spot with a green digspot from Animal Crossing.",

@@ -1,5 +1,5 @@
 {
-  "Format": "2.4.0",
+  "Format": "2.5.0",
   "ConfigSchema": {
     //Artifact Dig Spots
     "Animal Crossing Dig Spot": {
@@ -9,7 +9,7 @@
       "Section": "Artifact Dig Spots"
     },
     "Artifact Spot Typing": {
-      "AllowValues": "Normal, Glowy",
+      "AllowValues": "Normal, Glowy, Animated",
       "Default": "Normal",
       "Description": "A normal brown spot or a glowy spot",
       "Section": "Artifact Dig Spots"
@@ -58,6 +58,21 @@
         "When": {
           "Animal Crossing Dig Spot": "true",
           "Artifact Spot Typing": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/AnimatedGlowingSpot.png",
+        "ToArea": {
+          "X": 368,
+          "Y": 32,
+          "Width": 64,
+          "Height": 16
+        },
+        "When": {
+          "Animal Crossing Dig Spot": "true",
+          "Artifact Spot Typing": "Animated"
         }
       },
       {
