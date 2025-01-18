@@ -1,5 +1,5 @@
 {
-	"Format": "2.4.0",
+	"Format": "2.5.0",
 	"ConfigSchema": {
 		//crafted cheese amount
 		"Cheese Amount": {
@@ -50,6 +50,12 @@
 				"Balance Regen": "true"
 			}
 		},
+		//Add the machine recipes
+		{
+			"LogName": "Patching Data/Machines",
+			"Action": "Include",
+			"FromFile": "assets/data/Machines.json"
+		}
 		//add crafting recipes
 		{
 			"LogName": "Adding Cheese Recipes",
