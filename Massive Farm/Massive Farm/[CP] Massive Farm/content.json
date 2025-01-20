@@ -1,38 +1,46 @@
 {
-    "Format": "2.4.0",
+    "Format": "2.5.0",
     "Changes": [
         // add farm type
         {
             "Action": "EditData",
             "Target": "Data/AdditionalFarms",
             "Entries": {
-                "n3rdgirl.MassiveFarm/MassiveFarm": { // for technical reasons, you need to specify the ID here *and* in the "ID" field
-                    "ID": "n3rdgirl.MassiveFarm/MassiveFarm",
-                    "TooltipStringPath": "Strings/UI:n3rdgirl_MassiveFarm",
-                    "MapName": "MassiveFarm",
-                    "WorldMapTexture": "LooseSprites/Farm_ranching_map"
+                "{{ModID}}.MassiveFarm": {
+                    "ID": "{{ModID}}.MassiveFarm",
+                    "TooltipStringPath": "Strings/UI:{{ModID}}.Farm",
+                    "MapName": "{{ModID}}",
+                    "IconTexture": "Mods/{{ModID}}/Icon"
                 }
             }
         },
+        //adding name and description
         {
             "Action": "EditData",
             "Target": "Strings/UI",
             "Entries": {
-                "n3rdgirl_MassiveFarm": "{{i18n: MassiveFarmUI}}"
+                "{{ModID}}.Farm": "{{i18n: MassiveFarmUI}}"
             }
         },
-
-        // load map
+        //load icon
         {
             "Action": "Load",
-            "Target": "Maps/n3rdgirl_MassiveFarm",
+            "Target": "Mods/{{ModID}}/Icon",
+            "FromFile": "assets/massivefarmicon.png"
+        },
+        //load map
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}",
             "FromFile": "assets/MassiveFarm.tmx"
         },
+        //Load warp room
         {
             "Action": "Load",
             "Target": "Maps/{{ModID}}_WarpRoom",
             "FromFile": "assets/WarpRoom.tmx"
         },
+        //add the warp room to locations.
         {
             "Action": "EditData",
             "Target": "Data/Locations",

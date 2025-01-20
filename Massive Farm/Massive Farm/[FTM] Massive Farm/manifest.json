@@ -1,10 +1,10 @@
 {
   "Name": "[FTM] Massive Farm",
   "Author": "N3rdGirl",
-  "Version": "4.3.2",
+  "Version": "5.0.0",
   "Description": "A much larger farm that includes areas for foraging, mining, and more farm space for whatever you want",
   "UniqueID": "n3rdgirl.MassiveFarmFTM",
-  "UpdateKeys": [],
+  "UpdateKeys": ["Nexus:11174"],
   "ContentPackFor": {
     "UniqueID": "Esca.FarmTypeManager",
     "MinimumVersion": "1.24.0"
