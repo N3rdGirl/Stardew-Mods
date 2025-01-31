@@ -1,7 +1,7 @@
 {
   "Name": "[FTM] Massive Farm",
   "Author": "N3rdGirl",
-  "Version": "5.0.0",
+  "Version": "5.0.1",
   "Description": "A much larger farm that includes areas for foraging, mining, and more farm space for whatever you want",
   "UniqueID": "n3rdgirl.MassiveFarmFTM",
   "UpdateKeys": ["Nexus:11174"],
